@@ -1,16 +1,41 @@
-# cw1_app
+# CW1 – Flutter In-Class Activity 🚀
 
-A new Flutter project.
+---
 
-## Getting Started
+## 📌 Project Description
+This Flutter app was developed as part of **CW1 assignment**.  
+It demonstrates state management, persistence, and animations in Flutter.
 
-This project is a starting point for a Flutter application.
+The app includes:
+- ✅ Counter increment button  
+- ✅ Image toggle with animation (two owl images)  
+- ✅ Light/Dark theme toggle  
+- ✅ Persistent storage using **SharedPreferences**  
+- ✅ Reset button with confirmation dialog  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🖼️ Screenshots
+(Add emulator screenshots here)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Light Theme | Dark Theme |
+|-------------|------------|
+| ![Light](screenshots/light.png) | ![Dark](screenshots/dark.png) |
+
+---
+
+## ⚙️ Features
+1. **Counter** – Increases each time you press the button.  
+2. **Image Toggle** – Switches between two owl images with a smooth animation.  
+3. **Theme Toggle** – Switch between light and dark themes dynamically.  
+4. **Persistence** – App state (counter, theme, and selected image) is saved using `SharedPreferences`.  
+5. **Reset App** – Clears all stored values and resets the app to defaults.  
+
+---
+
+## 🚀 How to Run
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/<your-username>/cw1_app.git
+cd cw1_app
